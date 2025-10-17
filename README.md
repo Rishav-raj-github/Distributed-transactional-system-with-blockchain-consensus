@@ -1,9 +1,9 @@
-# Distributed Trading System with Blockchain Consensus
+# Distributed Transactional System with Blockchain Consensus
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> High-performance distributed trading system with custom blockchain consensus protocol for secure, low-latency order matching and cross-chain settlement
+> High-performance distributed transactional system with custom blockchain consensus protocol for secure, low-latency order matching and cross-chain settlement
 
 ## 📋 Table of Contents
 
@@ -22,9 +22,10 @@
 
 ## 🎯 Overview
 
-This project implements a **distributed trading system** that enables **secure, low-latency, real-time order matching** across multiple market participants using blockchain consensus mechanisms.
+This project implements a **distributed transactional system** that enables **secure, low-latency, real-time order matching** across multiple market participants using blockchain consensus mechanisms.
 
 The system is designed to:
+
 - ✅ Maintain distributed order books across a peer-to-peer network
 - ✅ Achieve high throughput with a **custom consensus protocol**
 - ✅ Perform **cross-chain trade settlement** using smart contracts
@@ -42,7 +43,7 @@ Maintain distributed order books across multiple nodes with microsecond-level sy
 Develop smart contracts for automated trade execution and settlement on Ethereum.
 
 ### Multi-chain Architecture
-Support cross-chain trading capabilities for seamless asset transfers.
+Support cross-chain capabilities for seamless asset transfers.
 
 ### High Availability
 Fault-tolerant design ensuring continuous operation even during node failures.
@@ -53,15 +54,15 @@ The system follows a layered architecture:
 
 ```
 ┌─────────────────────────────────────────┐
-│         Client Layer (REST API)         │
+│       Client Layer (REST API)          │
 ├─────────────────────────────────────────┤
-│      Order Matching Engine (P2P)        │
+│     Order Matching Engine (P2P)        │
 ├─────────────────────────────────────────┤
-│    Consensus Layer (Custom Protocol)    │
+│   Consensus Layer (Custom Protocol)     │
 ├─────────────────────────────────────────┤
 │  Settlement Layer (Smart Contracts)     │
 ├─────────────────────────────────────────┤
-│    Blockchain Layer (Ethereum)          │
+│      Blockchain Layer (Ethereum)        │
 └─────────────────────────────────────────┘
 ```
 
@@ -132,7 +133,7 @@ Create a `.env` file in the project root:
 ```env
 NODE_ENV=development
 PORT=8080
-DB_CONNECTION_STRING=postgresql://user:password@localhost:5432/trading
+DB_CONNECTION_STRING=postgresql://user:password@localhost:5432/transactional
 BLOCKCHAIN_RPC_URL=http://localhost:8545
 CONSENSUS_ALGORITHM=pbft
 NETWORK_PORT=9000
@@ -191,7 +192,7 @@ docker-compose logs -f
 kubectl apply -f k8s/
 
 # Check status
-kubectl get pods -n trading-system
+kubectl get pods -n transactional-system
 ```
 
 ### Submit Trades via REST API
@@ -210,6 +211,7 @@ curl -X POST http://localhost:8080/api/v1/orders \
 ### Monitor Trade Finality
 
 View confirmed trades on blockchain explorer:
+
 - Local: http://localhost:8545
 - Testnet: https://goerli.etherscan.io
 
@@ -249,6 +251,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 Please ensure:
+
 - Code follows project style guidelines
 - All tests pass (`make test`)
 - Documentation is updated
@@ -283,7 +286,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by PBFT, Raft, and epidemic consensus protocols
 - Built with Ethereum smart contract standards
 - Community contributions and feedback
-
----
 
 ⭐ **Star this repository** if you find it helpful!
