@@ -99,8 +99,8 @@ Before running this project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Rishav-raj-github/Distributed-trading-system-with-blockchain-consensus.git
-cd Distributed-trading-system-with-blockchain-consensus
+git clone https://github.com/Rishav-raj-github/Distributed-transactional-system-with-blockchain-consensus.git
+cd Distributed-transactional-system-with-blockchain-consensus
 ```
 
 ### 2. Install Dependencies
@@ -279,7 +279,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Project Maintainer**: Rishav Raj
 
 - GitHub: [@Rishav-raj-github](https://github.com/Rishav-raj-github)
-- Repository: [Distributed-trading-system-with-blockchain-consensus](https://github.com/Rishav-raj-github/Distributed-trading-system-with-blockchain-consensus)
+- Repository: [Distributed-transactional-system-with-blockchain-consensus](https://github.com/Rishav-raj-github/Distributed-transactional-system-with-blockchain-consensus)
 
 ## 🙏 Acknowledgments
 
