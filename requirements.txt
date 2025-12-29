@@ -1,0 +1,56 @@
+# Python dependencies
+python>=3.9
+
+# Core networking
+grpcio==1.56.0
+grpcio-tools==1.56.0
+aiogrpc==1.8
+
+# Async & async I/O
+aiohttp==3.8.5
+asyncio-contextmanager==1.0.0
+
+# Cryptography
+cryptography==41.0.1
+pycryptodome==3.18.0
+eth-keys==0.4.0
+eth-account==0.9.9
+
+# Blockchain & Web3
+web3==6.10.0
+eth-typing==3.4.1
+solcx==1.1.1
+
+# Data structures
+numpy==1.24.3
+pandas==2.0.2
+pydantic==2.3.0
+
+# Database
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.7
+rocksdb==0.23.1
+
+# Utilities
+click==8.1.6
+python-dotenv==1.0.0
+pyyaml==6.0
+requests==2.31.0
+
+# Monitoring & Logging
+prometheus-client==0.17.1
+python-json-logger==2.0.7
+
+# Development
+pytest==7.4.0
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+mypy==1.4.1
+
+# Documentation
+sphinx==7.1.2
+sphinx-rtd-theme==1.3.0
+jupyter==1.0.0
+ipython==8.14.0
